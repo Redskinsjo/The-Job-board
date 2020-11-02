@@ -1,0 +1,58 @@
+.red-square {
+  border: red 5px solid;
+  width: 200px;
+  height: 200px;
+  margin: 30px;
+  flex-shrink: 0;
+}
+.green-square {
+  border: 5px solid;
+  border-color: green;
+  width: 200px;
+  height: 200px;
+  margin: 30px;
+  flex-shrink: 0;
+}
+.yellow-square {
+  border: 5px solid;
+  border-color: yellow;
+  width: 200px;
+  height: 200px;
+  margin: 30px;
+  flex-shrink: 0;
+}
+.blue-square {
+  border: 5px solid;
+  border-color: blue;
+  width: 200px;
+  height: 200px;
+  margin: 30px;
+  flex-shrink: 0;
+}
+.pink-square {
+  border: 5px solid;
+  border-color: pink;
+  width: 200px;
+  height: 200px;
+  margin: 30px;
+  flex-shrink: 0;
+}
+
+.container {
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.container p {
+  margin: 0;
+  font-size: 22px;
+}
+
+.container span {
+  font-size: 14px;
+}

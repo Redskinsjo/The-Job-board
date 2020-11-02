@@ -1,0 +1,23 @@
+.footer {
+  width: 100%;
+  height: 80px;
+  background: lightgray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.leReacteur {
+  color: #5d47d2;
+  text-decoration: none;
+}
+.leReacteur:hover {
+  text-decoration: underline;
+}
+.myGithub {
+  color: #38b278;
+  text-decoration: none;
+}
+.myGithub:hover {
+  text-decoration: underline;
+}
